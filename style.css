@@ -1,0 +1,48 @@
+h1 {
+    color: #1a0ec4;
+    font-size: 50px ;
+    font-style: italic;
+}
+
+h2 {
+    color: #0d0d0e;
+    font-size: 50px ;
+    font-style: italic;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+
+    background-color: #15ac47;
+    font-size: larger;
+}
